@@ -1,0 +1,9 @@
+<main>
+  {{#each posts}}
+    <article>
+      <h3><a href="/post/{{this.id}}">{{this.title}}</a></h3>
+      <p>Posted on {{format_date this.createdAt}} by {{this.user.username}}</p>
+      <p>{{this.content}}</p>
+    </article>
+  {{/each}}
+</main>

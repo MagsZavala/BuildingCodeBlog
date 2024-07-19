@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    background-color: #ffebef;
+    font-family: 'Arial', sans-serif;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffb3c1;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a, nav button {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+/* Homepage Styles */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+article {
+    background-color: #ffc2d1;
+    border: 2px solid #ffb3c1;
+    padding: 20px;
+    margin: 20px 0;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    margin: 0 0 10px 0;
+    color: #ff4d6d;
+}
+
+article p {
+    margin: 10px 0;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 20px auto;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ff4d6d;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    border: 2px solid #ffb3c1;
+    border-radius: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #ff4d6d;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #ffb3c1;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+.comment {
+    background-color: #ffe5ec;
+    border: 1px solid #ffb3c1;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.comment p {
+    margin: 5px 0;
+    color: #4a4a4a;
+}
+
+/* Dashboard Styles */
+section h2 {
+    color: #ff4d6d;
+}
+
+button.edit-post, button.delete-post, button#logout {
+    background-color: #ff4d6d;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+button#logout {
+    margin-left: 20px;
+}
